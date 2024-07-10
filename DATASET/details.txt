@@ -1,0 +1,18 @@
+Dataset: 
+Shape : 1177 * 769
+Attributes : Embedding of length 768  and target variable is "Score" 
+Availability : In 4 variations
+1.	only codes – “code_only.csv” 
+2.	code+question - “code_ques.csv”
+3.	code+question+comments - “code_comm.csv”
+4.	code+question+comments+solution - “code_sol.csv”
+
+---
+
+Problem Statement :
+Pattern Analysis Of Code Embeddings
+Application of ML techniques to draw insights on the underlying patterns in input vectors. 
+The dataset consists of C programs that are evaluated by Subject Matter Experts (SMEs). The input C programs are represented as vectors of length 768. The target variable, 'score,' represents the marks provided by the SMEs. 
+You will be required to perform clustering algorithms with or without dimensionality reduction methods to extract meaningful segmentations from the input vectors and compare them to the segmentations formed through SME evaluations.
+
+
